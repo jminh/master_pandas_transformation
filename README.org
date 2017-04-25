@@ -1,0 +1,51 @@
+
+
+* Mastering pandas data transformation
+
+* Outline
+
++ quick jupyter notebook intro
+  - must installed extension
++ quick pandas intro
+  - what can pandas do
+  - data transformation
++ tech stack for data analysis
++ clean data: example
+
+* jupyter notebook quick intro
+
+** Try jupyter online
+
+https://try.jupyter.org/
+
+** Get jupyter on your own PC.
+
+https://www.continuum.io/downloads
+
+anaconda is the easiest way to setup your env!
+
+** power your jupyter env
+
+https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+
+#+BEGIN_EXAMPLE
+conda install -c conda-forge jupyter_contrib_nbextensions
+#+END_EXAMPLE
+
+* pandas quick intro
+
+
+  
+* pandas data transformation
+  
+** pivot
+
+drag and drop
+
+https://github.com/nicolaskruchten/jupyter_pivottablejs
+
+http://nicolas.kruchten.com/content/2015/09/jupyter_pivottablejs/
+
+* Example: clean data
+
+[[http://www.jeannicholashould.com/tidy-data-in-python.html][Tidy Data in Python]]
