@@ -1,6 +1,21 @@
 
-
 * Mastering pandas data transformation
+
+Real-world data is messy.
+You spend much time to deal with the raw data.
+Pandas is a very powerfull library for the data analysis.
+
+In pandas
+there are lots of functions for transformating data.
+Some of them(merge, concat) are easy to understand.
+Some of them(melt, pivot, ...) are like black box even
+after you read the documentation.
+
+By the end of this talk, you'll 
+ + set up the data analysis platform (jupyter notebook)
+ + get some tips on jupyter notebook
+ + know how to get started with Pandas if you are new to it. 
+ + have better undaterstanding of unstack, stack, melt, pivot,
 
 * Outline
 
@@ -24,7 +39,13 @@ https://www.continuum.io/downloads
 
 anaconda is the easiest way to setup your env!
 
-** power your jupyter env
+In your terminal, type
+
+#+BEGIN_SRC sh
+jupyter notebook
+#+END_SRC
+
+** Power your jupyter env
 
 https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 
@@ -34,7 +55,7 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 
 * pandas quick intro
 
-
+** Series and DataFrame
   
 * pandas data transformation
   
