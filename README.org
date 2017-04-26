@@ -1,6 +1,6 @@
 
 * Mastering pandas data transformation
-
+  
 Real-world data is messy.
 You spend much time to deal with the raw data.
 Pandas is a very powerfull library for the data analysis.
@@ -26,7 +26,7 @@ By the end of this talk, you'll
   - data transformation
 + tech stack for data analysis
 + clean data: example
-
+  
 * jupyter notebook quick intro
 
 ** Try jupyter online
@@ -45,7 +45,7 @@ In your terminal, type
 jupyter notebook
 #+END_SRC
 
-** Power your jupyter env
+** Power up your jupyter env
 
 https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 
@@ -55,8 +55,101 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 
 * pandas quick intro
 
-** Series and DataFrame
-  
+** pandas
+
+Powerful (Python) data analysis toolkit
+
+Tidy up your data
+
+** data
+
+Python libraries in data analysis
+
+numpy
+pandas
+matplotlib
+scikit-learn
+plotly
+...
+
+** how to get started with pandas
+
+http://pandas.pydata.org/pandas-docs/stable/tutorials.html
+
+pandas own 10 Minutes to pandas
+http://pandas.pydata.org/pandas-docs/stable/10min.html#min
+
+** practical example
+
+[[http://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/][Quick and Dirty Data Analysis with Pandas]]
+
+
+** DataFrame and Series
+
+Key componets:
+- DataFrame
+- Series
+
+#+BEGIN_SRC python
+import pandas as pd
+
+pd.DataFrame
+
+pd.Series
+#+END_SRC
+
+Core concept:
+- Series, DataFrame
+- Index
+
+multi index
+why 
+http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/pandas/03.05-Hierarchical-Indexing.ipynb
+
+*** creation
+ 
+- from csv
+- from json
+- form hdf5
+- from SQL database
+- from html
+- from python dict
+- from python list
+- from numpy array
+- ...
+- 
+
+There are a whole bunch of ways to create dataframe,
+don't dig it too much at first.
+
+
+** Basic info
+
+.info(verbose=True)
+.shape
+.describe()
+.head()
+.tail()
+
+
+** cheat sheet
+
+
+cheatsheet
+https://drive.google.com/file/d/0ByIrJAE4KMTtTUtiVExiUGVkRkE/view
+
+https://github.com/brandon-rhodes/pycon-pandas-tutorial/blob/master/cheat-sheet.txt
+
+https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
+
+useful snippets
+
+http://www.swegler.com/becky/blog/2014/08/06/useful-pandas-snippets/
+
+http://manishamde.github.io/blog/2013/03/07/pandas-and-python-top-10/
+
+http://www.kdnuggets.com/2017/01/pandas-cheat-sheet.html
+
 * pandas data transformation
   
 ** pivot
@@ -70,3 +163,46 @@ http://nicolas.kruchten.com/content/2015/09/jupyter_pivottablejs/
 * Example: clean data
 
 [[http://www.jeannicholashould.com/tidy-data-in-python.html][Tidy Data in Python]]
+
+* Stack
+
+machine learning stack
+
+#+BEGIN_SRC sh
+conda create -n mldm python=3.5 anaconda
+source activate ml_2017
+#+END_SRC
+
+#+BEGIN_SRC sh
+conda install seaborn
+#+END_SRC
+
+#+BEGIN_SRC sh
+conda install -c conda-forge jupyter_contrib_nbextensions
+conda install -c conda-forge jupyter_nbextensions_configurator
+#+END_SRC
+
+Scratchpad
+Table of Contents
+Skip-Traceback
+
+#+BEGIN_SRC sh
+conda install -c glemaitre imbalanced-learn
+#+END_SRC
+
+# slide
+
+#+BEGIN_SRC sh
+conda install -c damianavila82 rise
+#+END_SRC
+
+http://conda.pydata.org/docs/r-with-conda.html
+
+#+BEGIN_SRC sh
+conda install -c r r-essentials
+#+END_SRC
+
+#+BEGIN_SRC sh
+pip install cufflinks #--upgrade
+pip install plotly #--upgrade
+#+END_SRC
