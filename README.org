@@ -45,6 +45,11 @@ In your terminal, type
 jupyter notebook
 #+END_SRC
 
+
+** Turn your git repo into ineractive notebook
+
+http://mybinder.org/
+
 ** Power up your jupyter env
 
 https://github.com/ipython-contrib/jupyter_contrib_nbextensions
