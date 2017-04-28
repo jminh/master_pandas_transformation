@@ -29,6 +29,35 @@ By the end of this talk, you'll
   
 * jupyter notebook quick intro
 
+** What is jupyter
+
+The Jupyter Notebook is an interactive computing environment that enables users to
+
++ Edit code in the browser
++ Run code from the browser
++ The default runs Python Code
+  Julia, R, Ruby, Haskell, Scala, node.js, Go
++ Write documents in Markdown
++ See the results of computations with rich media representations
+  - HTML
+  - PNG, SVG
+  - PDF
+  - LaTex
+https://www.slideshare.net/e2m/introduction-to-ipython-jupyter-notebooks
+
+*** Why jupyter?
+
+- vim, emacs
+- PyCharm, Eclipse
+- jupyter notebook
+
+Enviroment like jupyter fit the needs of
+data analysis.
+
+- Exploring data
+  - visulazation
+
+
 ** Try jupyter online
 
 https://try.jupyter.org/
