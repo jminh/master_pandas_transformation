@@ -19,12 +19,13 @@ dependencies:
 - conda-forge::traitlets=4.3.2=py35_0
 - conda-forge::yaml=0.1.6=0
 - cycler=0.10.0=py35_0
+- damianavila82::rise=4.0.0b1=py35_0
 - decorator=4.0.4=py35_0
 - freetype=2.5.5=0
 - ipykernel=4.1.1=py35_0
 - ipython=4.0.1=py35_0
 - ipython_genutils=0.1.0=py35_0
-- ipywidgets=4.1.0=py35_0
+- ipywidgets=4.1.1=py35_0
 - jinja2=2.8=py35_0
 - jsonschema=2.4.0=py35_0
 - jupyter=1.0.0=py35_1
@@ -41,7 +42,7 @@ dependencies:
 - mkl=11.3.3=0
 - nbconvert=4.0.0=py35_0
 - nbformat=4.0.1=py35_0
-- notebook=4.0.6=py35_0
+- notebook=5.0.0=py35_0
 - numpy=1.11.2=py35_0
 - openssl=1.0.2j=0
 - pandas=0.19.1=np111py35_0
@@ -49,6 +50,7 @@ dependencies:
 - pexpect=3.3=py35_0
 - pickleshare=0.5=py35_0
 - pip=9.0.1=py35_0
+- plotly=1.12.9=py35_0
 - ptyprocess=0.5=py35_0
 - pygments=2.0.2=py35_0
 - pyparsing=2.1.1=py35_0
@@ -58,9 +60,11 @@ dependencies:
 - python.app=1.2=py35_4
 - pytz=2016.7=py35_0
 - pyzmq=14.7.0=py35_1
+- qgrid=0.3.2=py35_0
 - qt=4.8.7=1
 - qtconsole=4.1.1=py35_0
 - readline=6.2=2
+- requests=2.13.0=py35_0
 - scikit-learn=0.18.1=np111py35_0
 - scipy=0.18.1=np111py35_0
 - setuptools=27.2.0=py35_0
@@ -104,12 +108,9 @@ dependencies:
   - pandoc-attributes==0.1.7
   - pandocfilters==1.4.1
   - pip-autoremove==0.9.0
-  - plotly==1.12.12
   - prettytable==0.7.2
   - pytumblr==0.0.6
-  - qgrid==0.3.2
   - request==0.0.2
-  - requests==2.8.1
   - requests-file==1.4
   - requests-oauthlib==0.5.0
   - seaborn==0.7.1
