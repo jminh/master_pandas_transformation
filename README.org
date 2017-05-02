@@ -193,6 +193,12 @@ http://pandas.pydata.org/pandas-docs/stable/10min.html#min
 
 ** practical example
 
+Things in Pandas I Wish I'd Known Earlier
+http://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb
+
+[[http://queirozf.com/entries/pandas-dataframe-by-example][Pandas DataFrame by Example]]
+
+
 [[http://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/][Quick and Dirty Data Analysis with Pandas]]
 
 
