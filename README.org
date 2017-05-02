@@ -182,25 +182,26 @@ plotly
 
 ** how to get started with pandas
 
+*** Official
+
 http://pandas.pydata.org/pandas-docs/stable/tutorials.html
 
 pandas own 10 Minutes to pandas
 http://pandas.pydata.org/pandas-docs/stable/10min.html#min
 
-[[https://www.youtube.com/watch?v=5JnMutdy6Fw][Brandon Rhodes - Pandas From The Ground Up - PyCon 2015]]
-    https://github.com/brandon-rhodes/pycon-pandas-tutorial
+*** practical example
 
-
-** practical example
-
-Things in Pandas I Wish I'd Known Earlier
-http://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb
+[[http://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb][Things in Pandas I Wish I'd Known Earlier]]
 
 [[http://queirozf.com/entries/pandas-dataframe-by-example][Pandas DataFrame by Example]]
 
-
 [[http://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/][Quick and Dirty Data Analysis with Pandas]]
 
+*** vedio
+
+[[https://www.youtube.com/watch?v=5JnMutdy6Fw][Brandon Rhodes - Pandas From The Ground Up - PyCon 2015]]
+
+    https://github.com/brandon-rhodes/pycon-pandas-tutorial
 
 ** DataFrame and Series
 
@@ -218,10 +219,10 @@ pd.Series
 
 Core concept:
 - Series, DataFrame
-- Index
+- Index (multi index)
 
 multi index
-why 
+
 http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/pandas/03.05-Hierarchical-Indexing.ipynb
 
 *** creation
