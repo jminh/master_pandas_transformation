@@ -113,10 +113,15 @@ Shift + Enter
 *** combinde different lang code
 
 %%bash
+
 %%HTML
+
 %%python2
+
 %%python3
+
 %%ruby
+
 %%perl
 
 #+BEGIN_EXAMPLE
@@ -182,6 +187,32 @@ plotly
 
 ** how to get started with pandas
 
+1. Start from practical/real world example
+2. Dig into pandas API (like reading office manual)
+   
+*** Practical example
+
+Learning by doing
+
+[[http://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb][Things in Pandas I Wish I'd Known Earlier]]
+
+[[http://queirozf.com/entries/pandas-dataframe-by-example][Pandas DataFrame by Example]]
+
+[[https://github.com/jvns/pandas-cookbook][Pandas cookbook]]
+
+[[http://pbpython.com/excel-pandas-comp.html][Common Excel Tasks Demonstrated in Pandas]]
+[[http://pbpython.com/excel-pandas-comp-2.html][Common Excel Tasks Demonstrated in Pandas - Part 2]]
+
+[[http://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/][Quick and Dirty Data Analysis with Pandas]]
+
+[[https://www.springboard.com/blog/data-wrangling/][A comprehensive introduction to data wrangling]]
+
+*** vedio
+
+[[https://www.youtube.com/watch?v=5JnMutdy6Fw][Brandon Rhodes - Pandas From The Ground Up - PyCon 2015]]
+
+    https://github.com/brandon-rhodes/pycon-pandas-tutorial
+
 *** Official
 
 http://pandas.pydata.org/pandas-docs/stable/tutorials.html
@@ -189,19 +220,6 @@ http://pandas.pydata.org/pandas-docs/stable/tutorials.html
 pandas own 10 Minutes to pandas
 http://pandas.pydata.org/pandas-docs/stable/10min.html#min
 
-*** practical example
-
-[[http://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb][Things in Pandas I Wish I'd Known Earlier]]
-
-[[http://queirozf.com/entries/pandas-dataframe-by-example][Pandas DataFrame by Example]]
-
-[[http://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/][Quick and Dirty Data Analysis with Pandas]]
-
-*** vedio
-
-[[https://www.youtube.com/watch?v=5JnMutdy6Fw][Brandon Rhodes - Pandas From The Ground Up - PyCon 2015]]
-
-    https://github.com/brandon-rhodes/pycon-pandas-tutorial
 
 ** DataFrame and Series
 
