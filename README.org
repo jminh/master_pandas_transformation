@@ -20,6 +20,7 @@ By the end of this talk, you'll
 * Outline
 
 + quick jupyter notebook intro
+  - tips
   - must installed extension
 + quick pandas intro
   - what can pandas do
@@ -45,7 +46,7 @@ The Jupyter Notebook is an interactive computing environment that enables users 
   - LaTex
 https://www.slideshare.net/e2m/introduction-to-ipython-jupyter-notebooks
 
-*** Why jupyter?
+** Why jupyter?
 
 - vim, emacs
 - PyCharm, Eclipse
@@ -79,6 +80,65 @@ jupyter notebook
 
 http://mybinder.org/
 
+** Tips
+
+*** keyborad shortcuts
+
+#+BEGIN_EXAMPLE
+h
+ESC
+a
+b
+Ctrl + Enter
+Shift + Enter
+...
+#+END_EXAMPLE
+
+*** shell commands
+
+#+BEGIN_EXAMPLE
+!ls *.csv
+
+!pip install plotly
+#+END_EXAMPLE
+
+*** magic commands
+
+#+BEGIN_EXAMPLE
+%cd
+%ls
+%env
+#+END_EXAMPLE
+
+*** combinde different lang code
+
+%%bash
+%%HTML
+%%python2
+%%python3
+%%ruby
+%%perl
+
+#+BEGIN_EXAMPLE
+%%bash
+for i in {1..5}
+do
+   echo "i is $i"
+done
+#+END_EXAMPLE
+
+
+*** practice
+
+[[https://svds.com/jupyter-notebook-best-practices-for-data-science/][Jupyter Notebook Best Practices for Data Science]]
+
+[[https://github.com/jbwhit/OSCON-2015/blob/master/deliver/OSCON%20Slides.ipynb][slide]]
+
+Example Directory structure
+Version Control
+
+
+
 ** Power up your jupyter env
 
 https://github.com/ipython-contrib/jupyter_contrib_nbextensions
@@ -87,13 +147,28 @@ https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 conda install -c conda-forge jupyter_contrib_nbextensions
 #+END_EXAMPLE
 
+https://github.com/captainsafia/notebook-toc
+
+https://github.com/captainsafia/notebook-toc/raw/master/notebook-toc-screencast.gif
+
+source: https://github.com/captainsafia/notebook-toc
+
+Similar chrome extension: [[https://www.google.com.tw/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjEg7GjvdDTAhVEoJQKHYA9DZ0QFggpMAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fsmart-toc%2Flifgeihcfpkmmlfjbailfpfhbahhibba&usg=AFQjCNHhd_y8yq8qynmc2Bu9oza2o7uNpQ][Smart TOC - Chrome Web Store]]
+
 * pandas quick intro
+
+** why
+
+In Data Science, 80% of time spent prepare data, 20% of time spent complain about need for prepare data.
+
+https://twitter.com/bigdataborat/status/306596352991830016
 
 ** pandas
 
 Powerful (Python) data analysis toolkit
 
 Tidy up your data
+
 
 ** data
 
@@ -112,6 +187,11 @@ http://pandas.pydata.org/pandas-docs/stable/tutorials.html
 
 pandas own 10 Minutes to pandas
 http://pandas.pydata.org/pandas-docs/stable/10min.html#min
+
+[[https://www.youtube.com/watch?v=5JnMutdy6Fw][Brandon Rhodes - Pandas From The Ground Up - PyCon 2015]]
+    https://github.com/brandon-rhodes/pycon-pandas-tutorial
+
+
 
 ** practical example
 
@@ -157,17 +237,7 @@ There are a whole bunch of ways to create dataframe,
 don't dig it too much at first.
 
 
-** Basic info
-
-.info(verbose=True)
-.shape
-.describe()
-.head()
-.tail()
-
-
 ** cheat sheet
-
 
 cheatsheet
 https://drive.google.com/file/d/0ByIrJAE4KMTtTUtiVExiUGVkRkE/view
@@ -176,20 +246,42 @@ https://github.com/brandon-rhodes/pycon-pandas-tutorial/blob/master/cheat-sheet.
 
 https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
 
-useful snippets
+
+http://www.kdnuggets.com/2017/01/pandas-cheat-sheet.html
+
+** useful snippets
 
 http://www.swegler.com/becky/blog/2014/08/06/useful-pandas-snippets/
 
 http://manishamde.github.io/blog/2013/03/07/pandas-and-python-top-10/
 
-http://www.kdnuggets.com/2017/01/pandas-cheat-sheet.html
 
 * pandas data transformation
-  
-** pivot
 
-drag and drop
+** today's topic
 
+https://github.com/jminh/master_pandas_transformation/blob/master/stack_unstak_demo.ipynb
+
+https://github.com/jminh/master_pandas_transformation/blob/master/groupby_pivottable.ipynb
+
+https://github.com/jminh/master_pandas_transformation/blob/master/melt_pivot_demo.ipynb
+
++ unstack 
++ stack
+  - set_index
+  - reset_index
++ pivot
++ pivot_table
++ groupby
++ melt
+
+not covered
++ merge, join
++ cocat
++ crosstab
++ ...
+
+Bonus:drag and drop
 https://github.com/nicolaskruchten/jupyter_pivottablejs
 
 http://nicolas.kruchten.com/content/2015/09/jupyter_pivottablejs/
@@ -240,3 +332,4 @@ conda install -c r r-essentials
 pip install cufflinks #--upgrade
 pip install plotly #--upgrade
 #+END_SRC
+
