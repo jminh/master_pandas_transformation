@@ -134,9 +134,7 @@ done
 
 [[https://github.com/jbwhit/OSCON-2015/blob/master/deliver/OSCON%20Slides.ipynb][slide]]
 
-Example Directory structure
-Version Control
-
+Jupyter Version Control
 
 
 ** Power up your jupyter env
@@ -148,6 +146,8 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 #+END_EXAMPLE
 
 https://github.com/captainsafia/notebook-toc
+
+organize your thoughts, document structure
 
 https://github.com/captainsafia/notebook-toc/raw/master/notebook-toc-screencast.gif
 
@@ -161,14 +161,13 @@ Similar chrome extension: [[https://www.google.com.tw/url?sa=t&rct=j&q=&esrc=s&s
 
 In Data Science, 80% of time spent prepare data, 20% of time spent complain about need for prepare data.
 
-https://twitter.com/bigdataborat/status/306596352991830016
+source: https://twitter.com/bigdataborat/status/306596352991830016
 
 ** pandas
 
 Powerful (Python) data analysis toolkit
 
 Tidy up your data
-
 
 ** data
 
@@ -190,7 +189,6 @@ http://pandas.pydata.org/pandas-docs/stable/10min.html#min
 
 [[https://www.youtube.com/watch?v=5JnMutdy6Fw][Brandon Rhodes - Pandas From The Ground Up - PyCon 2015]]
     https://github.com/brandon-rhodes/pycon-pandas-tutorial
-
 
 
 ** practical example
