@@ -171,10 +171,17 @@ pip install ipython-sql
 
 [[https://github.com/catherinedevlin/ipython-sql][catherinedevlin/ipython-sql]]
 
-
 *** qgrid
 
 [[https://github.com/quantopian/qgrid][quantopian/qgrid]]
+
+*** RISE: turn your notebook into slide
+
+[[https://github.com/damianavila/RISE][damianavila/RISE]]
+
+#+BEGIN_SRC sh
+conda install -c damianavila82 rise
+#+END_SRC
 
 * pandas quick intro
 
