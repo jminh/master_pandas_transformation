@@ -144,6 +144,8 @@ Jupyter Version Control
 
 ** Power up your jupyter env
 
+*** nbextensions
+
 https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 
 #+BEGIN_EXAMPLE
@@ -159,6 +161,20 @@ https://github.com/captainsafia/notebook-toc/raw/master/notebook-toc-screencast.
 source: https://github.com/captainsafia/notebook-toc
 
 Similar chrome extension: [[https://www.google.com.tw/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjEg7GjvdDTAhVEoJQKHYA9DZ0QFggpMAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fsmart-toc%2Flifgeihcfpkmmlfjbailfpfhbahhibba&usg=AFQjCNHhd_y8yq8qynmc2Bu9oza2o7uNpQ][Smart TOC - Chrome Web Store]]
+
+
+*** jupyter with sql
+
+#+BEGIN_SRC sh
+pip install ipython-sql
+#+END_SRC
+
+[[https://github.com/catherinedevlin/ipython-sql][catherinedevlin/ipython-sql]]
+
+
+*** qgrid
+
+[[https://github.com/quantopian/qgrid][quantopian/qgrid]]
 
 * pandas quick intro
 
